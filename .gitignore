@@ -48,12 +48,19 @@ app.*.map.json
 /android/app/release
 
 # Android related
-**/android/**/gradle-wrapper.jar
-**/android/.gradle
+# Android
+**/android/.gradle/
 **/android/captures/
+**/android/gradle.properties
 **/android/gradlew
 **/android/gradlew.bat
 **/android/local.properties
+**/android/gradle-wrapper.properties
+**/android/build/
+**/android/gradle/
+**/android/app/build/
+**/android/app/outputs/
+**/android/**/gradle-wrapper.jar
 **/android/**/GeneratedPluginRegistrant.java
 
 
@@ -82,6 +89,23 @@ app.*.map.json
 **/ios/Flutter/flutter_assets/
 **/ios/ServiceDefinitions.json
 **/ios/Runner/GeneratedPluginRegistrant.*
+**/ios/**/*.mode1v3
+**/ios/**/*.mode2v3
+**/ios/**/*.moved-aside
+**/ios/**/*.pbxuser
+**/ios/**/*.perspectivev3
+**/ios/**/*sync/
+**/ios/**/.sconsign.dblite
+**/ios/**/.tags*
+**/ios/**/.vagrant/
+**/ios/**/DerivedData/
+**/ios/**/Icon?
+**/ios/**/profile
+**/ios/**/xcuserdata
+**/ios/.generated/
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
+
 
 # Exceptions to above rules.
 !**/ios/**/default.mode1v3
@@ -89,3 +113,97 @@ app.*.map.json
 !**/ios/**/default.pbxuser
 !**/ios/**/default.perspectivev3
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+
+# Web
+**/web/build/
+**/web/.dart_tool/
+**/web/packages/
+**/web/*.dart.js
+**/web/*.dart.js.map
+
+# Test
+**/test/**/generated_plugin_registrant.dart
+
+
+# Generated
+**/lib/generated_plugin_registrant.dart
+
+# Misc
+**/*.iml
+**/*.log
+.DS_Store
+.pub/
+/build/
+/captures/
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.vscode/
+.DS_Store
+
+
+# Linux
+**/linux/build/
+**/linux/flutter/
+**/linux/my_application.cc
+**/linux/my_application.h
+**/linux/main.cc
+
+# macOS
+**/macos/.generated/
+**/macos/Flutter/Flutter-Debug.xcconfig
+**/macos/Flutter/Flutter-Release.xcconfig
+**/macos/Flutter/GeneratedPluginRegistrant.swift
+**/macos/Runner.xcodeproj/project.pbxproj
+**/macos/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+**/macos/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme
+**/macos/Runner.xcworkspace/contents.xcworkspacedata
+**/macos/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+
+# Windows
+**/windows/build/
+**/windows/flutter/
+**/windows/runner/generated_plugin_registrant.cc
+**/windows/runner/generated_plugin_registrant.h
+**/windows/runner/flutter_window.cpp
+**/windows/runner/flutter_window.h
+**/windows/runner/main.cpp
+**/windows/runner/resource.h
+**/windows/runner/runner.rc
+**/windows/runner/utils.cpp
+**/windows/runner/utils.h
+**/windows/runner/win32_window.cpp
+**/windows/runner/win32_window.h
+
+# Linux
+**/linux/build/
+**/linux/flutter/
+**/linux/my_application.cc
+**/linux/my_application.h
+
+# macOS
+**/macos/.generated/
+**/macos/Flutter/Flutter-Debug.xcconfig
+**/macos/Flutter/Flutter-Release.xcconfig
+**/macos/Flutter/GeneratedPluginRegistrant.swift
+**/macos/Runner.xcodeproj/project.pbxproj
+**/macos/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+**/macos/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme
+**/macos/Runner.xcworkspace/contents.xcworkspacedata
+**/macos/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+**/macos/Runner/AppDelegate.swift
+**/macos/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json
+**/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_1024.png
+**/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_128.png
+**/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_16.png
+**/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_256.png
+**/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_32.png
+**/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_512.png
+**/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_64.png
+
+**/macos/.generated/
+**/linux/build/
+**/windows/build/
